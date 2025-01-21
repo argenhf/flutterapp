@@ -9,7 +9,6 @@ Clean, modern UI with intuitive navigation
 
 
 Technical Stack:
-
 Flutter/Dart
 Material Design
 Custom UI Components
