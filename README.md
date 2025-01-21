@@ -27,7 +27,7 @@ Getting Started:
 
 Clone the repository
 
-git clone https://github.com/YourUsername/TeenPay.git
+git clone https://github.com/vip0411e/TeenPay.git
 
 Install dependencies
 
