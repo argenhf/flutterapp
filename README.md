@@ -1,16 +1,53 @@
-# flutterprojects
+Key Features:
 
-A new Flutter project.
+Teen-focused debit card management
+Real-time balance tracking and transaction history
+Secure money transfers and payments
+Multiple account management
+User-friendly profile management
+Clean, modern UI with intuitive navigation
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+Technical Stack:
 
-A few resources to get you started if this is your first Flutter project:
+Flutter/Dart
+Material Design
+Custom UI Components
+Responsive Layout
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Project Structure:
+lib/
+├── main.dart          # Main application file with home screen
+├── payments.dart      # Payments screen with transaction features
+└── profile.dart       # User profile management screen
+
+
+Getting Started:
+
+Clone the repository
+
+git clone https://github.com/YourUsername/TeenPay.git
+
+Install dependencies
+
+flutter pub get
+
+Run the app
+
+flutter run
+
+
+Future Enhancements:
+
+Biometric authentication
+Parental controls
+Spending analytics
+Savings goals
+Educational financial content
+Push notifications
+
+Contributing:
+Contributions are welcome! Please feel free to submit a Pull Request.
+License:
+This project is licensed under the MIT License - see the LICENSE file for details.
