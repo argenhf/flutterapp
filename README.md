@@ -21,6 +21,17 @@
 	└── profile.dart       # User profile management screen
 
 
+ Screenshots:
+ HomeScreen
+ ![HomeScreen](https://github.com/user-attachments/assets/a431d845-c38a-4ac9-add8-582708ab8f26)
+
+PaymentScreen
+![PaymentScreen](https://github.com/user-attachments/assets/ce5d0f64-be20-4bfe-b180-6d4d524c5832)
+
+ProfileScreen
+![ProfileScreen](https://github.com/user-attachments/assets/3ebfbc8a-23df-4aa4-9d7c-34345ce34bc5)
+
+
  Getting Started:
  Clone the repository
 		git clone https://github.com/vip0411e/TeenPay.git
