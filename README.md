@@ -1,4 +1,4 @@
-Key Features:	
+ Key Features:	
 	Teen-focused debit card management
 	Real-time balance tracking and transaction history
 	Secure money transfers and payments
@@ -7,30 +7,30 @@ Key Features:
 	Clean, modern UI with intuitive navigation
 
 
-Technical Stack:
+ Technical Stack:
 	Flutter/Dart
 	Material Design
 	Custom UI Components
 	Responsive Layout
 
 
-Project Structure:
+ Project Structure:
 	lib/
 	├── main.dart          # Main application file with home screen
 	├── payments.dart      # Payments screen with transaction features
 	└── profile.dart       # User profile management screen
 
 
-Getting Started:
-Clone the repository
+ Getting Started:
+ Clone the repository
 		git clone https://github.com/vip0411e/TeenPay.git
-Install dependencies
+ Install dependencies
 		flutter pub get
-Run the app
+ Run the app
 		flutter run
 
 
-Future Enhancements:
+ Future Enhancements:
 	Biometric authentication
 	Parental controls
 	Spending analytics
@@ -38,8 +38,8 @@ Future Enhancements:
 	Educational financial content
 	Push notifications
 
-Contributing:
+ Contributing:
 	Contributions are welcome! Please feel free to submit a Pull Request.
 
-License:
+ License:
 	This project is licensed under the MIT License - see the LICENSE file for details.
