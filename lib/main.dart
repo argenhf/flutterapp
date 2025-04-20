@@ -7,7 +7,7 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
 }
 
 class HomeScreen extends StatelessWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+  const HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -35,12 +35,12 @@ class HomeScreen extends StatelessWidget {
             children: [
               // Time and Status Bar
               //const Row(
-                //children: [
-                  //Text(
-                    //"9:41",
-                    //style: TextStyle(fontWeight: FontWeight.bold),
-                  //),
-                //],
+              //children: [
+              //Text(
+              //"9:41",
+              //style: TextStyle(fontWeight: FontWeight.bold),
+              //),
+              //],
               //),
               const SizedBox(height: 20),
 
@@ -288,22 +288,22 @@ class HomeScreen extends StatelessWidget {
         selectedItemColor: Colors.black,
         unselectedItemColor: Colors.grey,
         onTap: (index) {
-         if (index == 0) {
-           Navigator.push(
-             context,
-             MaterialPageRoute(builder: (context)=>const HomeScreen()),
-          );
+          if (index == 0) {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => const HomeScreen()),
+            );
           } else if (index == 1) {
-           Navigator.push(
-             context,
-             MaterialPageRoute(builder: (context) => const PaymentsScreen()),
-           );
-        }else if (index == 3) {
-          Navigator.push(
-            context,
-            MaterialPageRoute(builder: (context) => const ProfileScreen()),
-          );
-        }
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => const PaymentsScreen()),
+            );
+          } else if (index == 3) {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => const ProfileScreen()),
+            );
+          }
         },
       ),
     );

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class PaymentsScreen extends StatelessWidget {
-  const PaymentsScreen({Key? key}) : super(key: key);
+  const PaymentsScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -31,8 +31,9 @@ class PaymentsScreen extends StatelessWidget {
                 color: Colors.white,
                 borderRadius: BorderRadius.circular(12),
               ),
-              child: const TextField(
-                decoration: InputDecoration(
+              child: TextField(
+                key: Key('search_text_field'),
+                decoration: const InputDecoration(
                   icon: Icon(Icons.search),
                   hintText: 'Search payments',
                   border: InputBorder.none,
@@ -189,11 +190,11 @@ class PaymentsScreen extends StatelessWidget {
   }
 
   Widget _buildTransaction(
-      String title,
-      String date,
-      String amount,
-      IconData icon,
-      ) {
+    String title,
+    String date,
+    String amount,
+    IconData icon,
+  ) {
     return ListTile(
       leading: CircleAvatar(
         backgroundColor: Colors.grey[200],
